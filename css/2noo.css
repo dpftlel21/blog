@@ -1,0 +1,121 @@
+body {
+    background-color: bisque;
+    color: white;
+    font-family: 'GmarketSansBold';
+    margin: 0;
+    font-family: 'Jua', sans-serif;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 10px 10px;
+}
+
+.navbar {
+    height: 50px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    justify-content: space-between;
+}
+
+a {
+    font-family: italic;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: darkslategray;
+    border-radius: 4px;
+}
+.navbar_logo {
+    font-size: 5px;
+}
+
+.navbar_logo i {
+    padding: 0px 30px;
+    color: white;
+}
+
+.navbar_menu {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar_menu:hover {
+    background-color: darkslategray;
+    border-radius: 2px;
+}
+
+.navbar_icons { 
+    list-style: none;
+    display: flex;
+}
+
+.navbar_icons li {
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    padding: 10px 20px;
+}
+/* 본문 바로 위 */
+sub {
+    display: flex;
+    justify-content: center;
+}
+
+.sub_title {
+    font-size: 20px;
+}
+
+sub h1:hover {
+    background-color: darkslategray;
+    border-radius: 4px;
+}
+
+/* 본문 만들기 */
+
+main {
+    text-align: center;
+}
+
+main .day1 {
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+
+main .day2 {
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+
+/* 저작권 */
+
+#copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    left: 0;
+    bottom: 0;
+}
+
+#copyright p {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+
+
+
